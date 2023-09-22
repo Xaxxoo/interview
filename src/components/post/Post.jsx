@@ -12,11 +12,11 @@ export default function Post({ post }) {
     const fetchUsers = async () => {
       fetch("https://randomuser.me/api/")
         .then((response) => response.json())
-        .then((data) => console.log(data));
+        .then((data) => console.log(data.results));
     };
 
     setInterval(() => {
-      fetchUsers();
+      // fetchUsers();
     }, 5000);
   }, []);
 

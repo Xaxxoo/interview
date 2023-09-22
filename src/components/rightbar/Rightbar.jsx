@@ -13,7 +13,7 @@ export default function Rightbar() {
     };
 
     setInterval(() => {
-      fetchUsers();
+      // fetchUsers();
     }, 5000);
   }, []);
 

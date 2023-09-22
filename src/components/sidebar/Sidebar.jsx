@@ -25,7 +25,7 @@ export default function Sidebar() {
     };
 
     setInterval(() => {
-      fetchUsers();
+      // fetchUsers();
     }, 5000);
   }, []);
   return (
